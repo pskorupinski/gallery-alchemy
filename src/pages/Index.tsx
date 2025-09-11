@@ -12,7 +12,7 @@ import collection3Img1 from "@/assets/collection-3-img-1.jpg";
 
 const collections = [
   {
-    title: "Urban Elegance",
+    title: "Bride & Groom's Morning",
     description: "A sophisticated exploration of metropolitan beauty through fashion and architecture.",
     images: [
       { src: collection1Img1, alt: "Fashion portrait" },
@@ -21,7 +21,7 @@ const collections = [
     ]
   },
   {
-    title: "Neon Nights",
+    title: "Wedding Ceremony",
     description: "Capturing the electric energy of city lights and nocturnal urban landscapes.",
     images: [
       { src: collection2Img1, alt: "Urban nightscape" },
@@ -30,7 +30,7 @@ const collections = [
     ]
   },
   {
-    title: "Natural Grandeur",
+    title: "Wedding Events",
     description: "Majestic landscapes that showcase the raw power and beauty of nature.",
     images: [
       { src: collection3Img1, alt: "Mountain landscape" },
@@ -39,7 +39,7 @@ const collections = [
     ]
   },
   {
-    title: "Minimal Forms",
+    title: "Party Time!",
     description: "Clean geometric compositions that find beauty in simplicity and negative space.",
     images: [
       { src: collection1Img2, alt: "Architectural geometry" },
@@ -48,7 +48,7 @@ const collections = [
     ]
   },
   {
-    title: "Golden Hour",
+    title: "Married Couple with Guests",
     description: "Warm, cinematic moments captured during the most magical light of day.",
     images: [
       { src: collection1Img3, alt: "Golden textures" },
@@ -57,14 +57,32 @@ const collections = [
     ]
   },
   {
-    title: "Monochrome Poetry",
+    title: "Guest Portraits",
     description: "Timeless black and white imagery that speaks to the soul through contrast and emotion.",
     images: [
       { src: collection1Img1, alt: "B&W portrait" },
       { src: collection1Img2, alt: "Architectural shadows" },
       { src: collection2Img1, alt: "Urban contrast" }
     ]
-  }
+  },
+    {
+    title: "Married Couple in the Garden",
+    description: "A sophisticated exploration of metropolitan beauty through fashion and architecture.",
+    images: [
+      { src: collection1Img1, alt: "Fashion portrait" },
+      { src: collection1Img2, alt: "Architectural detail" },
+      { src: collection1Img3, alt: "Abstract texture" }
+    ]
+  },
+  {
+    title: "Decoration",
+    description: "Capturing the electric energy of city lights and nocturnal urban landscapes.",
+    images: [
+      { src: collection2Img1, alt: "Urban nightscape" },
+      { src: collection1Img3, alt: "Neon reflections" },
+      { src: collection1Img1, alt: "Street portrait" }
+    ]
+  },
 ];
 
 const Index = () => {
