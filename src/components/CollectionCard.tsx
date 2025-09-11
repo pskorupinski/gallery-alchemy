@@ -26,7 +26,7 @@ const CollectionCard = ({ title, description, images, index }: CollectionCardPro
       {/* Creative Image Collage */}
       <div className="relative h-[500px] bg-surface rounded-2xl overflow-hidden mb-6 shadow-premium">
         {/* Main Image - Takes up 60% width */}
-        <div className="absolute top-0 left-0 w-[60%] h-full">
+        <div className="absolute top-0 left-0 w-[60%] h-full overflow-hidden rounded-l-2xl">
           <img
             src={images[0]?.src}
             alt={images[0]?.alt}
@@ -63,7 +63,7 @@ const CollectionCard = ({ title, description, images, index }: CollectionCardPro
         <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent" />
 
         {/* Content Overlay - Clean, no blur */}
-        <div className="absolute bottom-0 left-0 right-0 p-8">
+        <div className="absolute bottom-0 left-0 w-[55%] p-8">
           <div className="bg-surface/95 rounded-xl p-6 border border-primary/10">
             <h3 className="text-2xl md:text-3xl font-playfair font-semibold text-primary mb-3">
               {title}
