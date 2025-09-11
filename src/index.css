@@ -119,74 +119,30 @@
 }
 
 @layer components {
-  /* Premium animations */
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-  
-  .animate-glow {
-    animation: glow 3s ease-in-out infinite alternate;
-  }
-  
+  /* Elegant entrance animation */
   .animate-slide-up {
-    animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
   
-  /* Creative image compositions */
-  .image-mosaic {
-    @apply relative overflow-hidden rounded-lg;
-  }
-  
-  .image-floating {
-    @apply absolute transition-all duration-700 ease-out;
-    filter: brightness(0.9) contrast(1.1);
-  }
-  
-  .image-floating:hover {
-    filter: brightness(1) contrast(1.2);
-    transform: scale(1.05) rotate(1deg);
-  }
-  
-  /* Glass morphism effect */
-  .glass {
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  
-  /* Premium text effects */
+  /* Refined text effects */
   .text-gradient {
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  
-  .text-glow {
-    text-shadow: 0 0 30px hsl(var(--primary) / 0.5);
-  }
 }
 
 @layer utilities {
-  /* Custom keyframes */
-  @keyframes float {
-    0%, 100% { transform: translateY(0px) rotate(0deg); }
-    50% { transform: translateY(-20px) rotate(2deg); }
-  }
-  
-  @keyframes glow {
-    from { box-shadow: 0 0 20px hsl(var(--primary) / 0.3); }
-    to { box-shadow: 0 0 40px hsl(var(--primary) / 0.6), 0 0 80px hsl(var(--primary) / 0.2); }
-  }
-  
+  /* Refined keyframes */
   @keyframes slideUp {
     from { 
       opacity: 0; 
-      transform: translateY(60px) scale(0.95);
+      transform: translateY(30px);
     }
     to { 
       opacity: 1; 
-      transform: translateY(0px) scale(1);
+      transform: translateY(0px);
     }
   }
 }
