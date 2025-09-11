@@ -1,12 +1,94 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import CollectionCard from "@/components/CollectionCard";
+import Footer from "@/components/Footer";
+
+// Import placeholder images
+import collection1Img1 from "@/assets/collection-1-img-1.jpg";
+import collection1Img2 from "@/assets/collection-1-img-2.jpg";
+import collection1Img3 from "@/assets/collection-1-img-3.jpg";
+import collection2Img1 from "@/assets/collection-2-img-1.jpg";
+import collection3Img1 from "@/assets/collection-3-img-1.jpg";
+
+const collections = [
+  {
+    title: "Urban Elegance",
+    description: "A sophisticated exploration of metropolitan beauty through fashion and architecture.",
+    images: [
+      { src: collection1Img1, alt: "Fashion portrait" },
+      { src: collection1Img2, alt: "Architectural detail" },
+      { src: collection1Img3, alt: "Abstract texture" }
+    ]
+  },
+  {
+    title: "Neon Nights",
+    description: "Capturing the electric energy of city lights and nocturnal urban landscapes.",
+    images: [
+      { src: collection2Img1, alt: "Urban nightscape" },
+      { src: collection1Img3, alt: "Neon reflections" },
+      { src: collection1Img1, alt: "Street portrait" }
+    ]
+  },
+  {
+    title: "Natural Grandeur",
+    description: "Majestic landscapes that showcase the raw power and beauty of nature.",
+    images: [
+      { src: collection3Img1, alt: "Mountain landscape" },
+      { src: collection1Img2, alt: "Natural textures" },
+      { src: collection2Img1, alt: "Atmospheric mood" }
+    ]
+  },
+  {
+    title: "Minimal Forms",
+    description: "Clean geometric compositions that find beauty in simplicity and negative space.",
+    images: [
+      { src: collection1Img2, alt: "Architectural geometry" },
+      { src: collection1Img3, alt: "Abstract forms" },
+      { src: collection1Img1, alt: "Minimal portrait" }
+    ]
+  },
+  {
+    title: "Golden Hour",
+    description: "Warm, cinematic moments captured during the most magical light of day.",
+    images: [
+      { src: collection1Img3, alt: "Golden textures" },
+      { src: collection3Img1, alt: "Sunset landscape" },
+      { src: collection1Img1, alt: "Portrait in golden light" }
+    ]
+  },
+  {
+    title: "Monochrome Poetry",
+    description: "Timeless black and white imagery that speaks to the soul through contrast and emotion.",
+    images: [
+      { src: collection1Img1, alt: "B&W portrait" },
+      { src: collection1Img2, alt: "Architectural shadows" },
+      { src: collection2Img1, alt: "Urban contrast" }
+    ]
+  }
+];
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Header />
+      <Hero />
+      
+      {/* Collections Grid */}
+      <section className="container mx-auto px-6 pb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+          {collections.map((collection, index) => (
+            <CollectionCard
+              key={collection.title}
+              title={collection.title}
+              description={collection.description}
+              images={collection.images}
+              index={index}
+            />
+          ))}
+        </div>
+      </section>
+
+      <Footer />
     </div>
   );
 };
