@@ -63,7 +63,7 @@ const CollectionCard = ({ title, description, images, index }: CollectionCardPro
         <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent" />
 
         {/* Content Overlay - Clean, no blur */}
-        <div className="absolute bottom-0 left-0 w-[55%] p-8">
+        <div className="absolute bottom-0 left-0 w-[85%] md:w-[70%] lg:w-[55%] p-4 md:p-8">
           <div className="bg-surface/95 rounded-xl p-6 border border-primary/10">
             <h3 className="text-2xl md:text-3xl font-playfair font-semibold text-primary mb-3">
               {title}
