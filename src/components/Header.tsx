@@ -6,21 +6,21 @@ const Header = () => {
       <div className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={GPlogo} alt="GP Logo" className="w-16 h-16 bg-background rounded-lg" />
+            <img src={GPlogo} alt="GP Logo" className="w-20 h-20 bg-background rounded-full" />
             <div>
-              <h1 className="text-2xl font-playfair font-semibold text-gradient">
-                Giulia & Paweł Wedding Photo Gallery
+              <h1 className="text-2xl font-roboto text-gradient">
+                <b>Giulia & Paweł Wedding</b> Photo Gallery
               </h1>
             </div>
           </div>
           <div className="hidden md:block">
             <iframe
               width="300"
-              height="166"
+              height="80"
               scrolling="no"
               frameBorder="no"
               allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1346449978&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/478663311&color=%23313EAE&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"
               className="rounded-lg"
             ></iframe>
           </div>

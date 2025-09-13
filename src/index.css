@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Luxury Photography Portfolio Design System */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap'); */
 
 @layer base {
   :root {
@@ -35,14 +35,14 @@
     --border: 0 0% 85%;
     
     /* Wedding-appropriate gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(24 100% 85%) 0%, hsl(24 100% 80%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(234 56% 49%) 0%, hsl(234 56% 44%) 100%);
     --gradient-surface: linear-gradient(135deg, hsl(0 0% 95%) 0%, hsl(0 0% 92%) 100%);
     --gradient-accent: linear-gradient(135deg, hsl(320 60% 85%) 0%, hsl(320 60% 80%) 100%);
     
     /* Soft shadows for light theme */
     --shadow-premium: 0 25px 50px -12px hsl(0 0% 0% / 0.15);
     --shadow-soft: 0 10px 25px -5px hsl(0 0% 0% / 0.08);
-    --shadow-glow: 0 0 40px hsl(24 100% 85% / 0.3);
+    --shadow-glow: 0 0 40px hsl(234 56% 44% / 0.3);
     
     /* Layout */
     --radius: 1rem;
@@ -113,9 +113,9 @@
     background: hsl(var(--background));
   }
   
-  h1, h2, h3, h4, h5, h6 {
+/*   h1, h2, h3, h4, h5, h6 {
     @apply font-playfair;
-  }
+  } */
 }
 
 @layer components {

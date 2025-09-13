@@ -69,9 +69,9 @@ const CollectionCard = ({ title, description, images, index, url }: CollectionCa
         {/* Content Overlay - Clean, no blur */}
         <div className="absolute bottom-0 left-0 w-[85%] md:w-[70%] lg:w-[55%] p-4 md:p-8">
           <div className="bg-surface/95 rounded-xl p-6 border border-primary/10">
-            <h3 className="text-2xl md:text-3xl font-playfair font-semibold text-primary mb-3">
+            <h4 className="text-2xl md:text-2xl font-inter font-semibold text-primary mb-3">
               {title}
-            </h3>
+            </h4>
             <p className="text-text-secondary font-inter leading-relaxed mb-4 max-w-md">
               {description}
             </p>

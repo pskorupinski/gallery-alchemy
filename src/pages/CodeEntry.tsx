@@ -27,13 +27,13 @@ const CodeEntry = () => {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <div className="flex justify-center mb-4">
-            <img src={GPlogo} alt="GP Logo" className="w-16 h-16 bg-background rounded-lg" />
+            <img src={GPlogo} alt="GP Logo" className="w-24 h-20 bg-background rounded-lg" />
           </div>
-          <CardTitle className="text-2xl font-playfair text-gradient">
+          <CardTitle className="text-gradient">
             Giulia & Paweł Wedding Gallery
           </CardTitle>
           <CardDescription>
-            Please enter the access code to view the wedding photos
+            Enter the access code to live it all over again!
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -54,7 +54,7 @@ const CodeEntry = () => {
                 <p className="text-destructive text-sm mt-2 text-center">{error}</p>
               )}
             </div>
-            <Button type="submit" className="w-full">
+            <Button type="submit" className="w-full text-white">
               Access Gallery
             </Button>
           </form>
