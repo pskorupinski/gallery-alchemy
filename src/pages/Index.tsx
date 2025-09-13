@@ -13,7 +13,7 @@ import collection3Img1 from "@/assets/collection-3-img-1.jpg";
 const collections = [
   {
     title: "Bride & Groom's Morning",
-    description: "A sophisticated exploration of metropolitan beauty through fashion and architecture.",
+    description: "Getting ready for the ceremony with parents and witnesses.",
     images: [
       { src: collection1Img1, alt: "Fashion portrait" },
       { src: collection1Img2, alt: "Architectural detail" },
