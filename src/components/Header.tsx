@@ -11,11 +11,8 @@ const Header = () => {
             </div>
             <div>
               <h1 className="text-2xl font-playfair font-semibold text-gradient">
-                LUMINA
+                Giulia & Paweł Wedding Photo Gallery
               </h1>
-              <p className="text-sm text-text-secondary font-inter font-light">
-                Photography Collections
-              </p>
             </div>
           </div>
         </div>
