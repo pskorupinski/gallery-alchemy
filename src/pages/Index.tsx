@@ -9,15 +9,19 @@ import collection1Img2 from "@/assets/collection-1-img-2.jpg";
 import collection1Img3 from "@/assets/collection-1-img-3.jpg";
 import collection2Img1 from "@/assets/collection-2-img-1.jpg";
 import collection3Img1 from "@/assets/collection-3-img-1.jpg";
+import c1_1 from "@/assets/1-1.jpg";
+import c1_2 from "@/assets/1-2.jpg";
+import c1_3 from "@/assets/1-3.jpg";
 
 const collections = [
   {
     title: "Bride & Groom's Morning",
     description: "Getting ready for the ceremony with parents and witnesses.",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/EpoTzr_RMZVBhfb-NPgxrTABUUJEkUxicGeX8fVcQ-aV_w?e=w1VTXA",
     images: [
-      { src: collection1Img1, alt: "Fashion portrait" },
-      { src: collection1Img2, alt: "Architectural detail" },
-      { src: collection1Img3, alt: "Abstract texture" }
+      { src: c1_1, alt: "Bride & Groom's Morning #1" },
+      { src: c1_2, alt: "Bride & Groom's Morning #2" },
+      { src: c1_3, alt: "Bride & Groom's Morning #3" }
     ]
   },
   {
