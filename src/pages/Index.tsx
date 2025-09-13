@@ -14,6 +14,7 @@ const collections = [
   {
     title: "Bride & Groom's Morning",
     description: "A sophisticated exploration of metropolitan beauty through fashion and architecture.",
+    url: "https://example.com/bride-groom-morning",
     images: [
       { src: collection1Img1, alt: "Fashion portrait" },
       { src: collection1Img2, alt: "Architectural detail" },
@@ -23,6 +24,7 @@ const collections = [
   {
     title: "Wedding Ceremony",
     description: "Capturing the electric energy of city lights and nocturnal urban landscapes.",
+    url: "https://example.com/wedding-ceremony",
     images: [
       { src: collection2Img1, alt: "Urban nightscape" },
       { src: collection1Img3, alt: "Neon reflections" },
@@ -32,6 +34,7 @@ const collections = [
   {
     title: "Wedding Events",
     description: "Majestic landscapes that showcase the raw power and beauty of nature.",
+    url: "https://example.com/wedding-events",
     images: [
       { src: collection3Img1, alt: "Mountain landscape" },
       { src: collection1Img2, alt: "Natural textures" },
@@ -41,6 +44,7 @@ const collections = [
   {
     title: "Party Time!",
     description: "Clean geometric compositions that find beauty in simplicity and negative space.",
+    url: "https://example.com/party-time",
     images: [
       { src: collection1Img2, alt: "Architectural geometry" },
       { src: collection1Img3, alt: "Abstract forms" },
@@ -50,6 +54,7 @@ const collections = [
   {
     title: "Married Couple with Guests",
     description: "Warm, cinematic moments captured during the most magical light of day.",
+    url: "https://example.com/couple-with-guests",
     images: [
       { src: collection1Img3, alt: "Golden textures" },
       { src: collection3Img1, alt: "Sunset landscape" },
@@ -59,6 +64,7 @@ const collections = [
   {
     title: "Guest Portraits",
     description: "Timeless black and white imagery that speaks to the soul through contrast and emotion.",
+    url: "https://example.com/guest-portraits",
     images: [
       { src: collection1Img1, alt: "B&W portrait" },
       { src: collection1Img2, alt: "Architectural shadows" },
@@ -68,6 +74,7 @@ const collections = [
     {
     title: "Married Couple in the Garden",
     description: "A sophisticated exploration of metropolitan beauty through fashion and architecture.",
+    url: "https://example.com/couple-garden",
     images: [
       { src: collection1Img1, alt: "Fashion portrait" },
       { src: collection1Img2, alt: "Architectural detail" },
@@ -77,6 +84,7 @@ const collections = [
   {
     title: "Decoration",
     description: "Capturing the electric energy of city lights and nocturnal urban landscapes.",
+    url: "https://example.com/decoration",
     images: [
       { src: collection2Img1, alt: "Urban nightscape" },
       { src: collection1Img3, alt: "Neon reflections" },
@@ -101,6 +109,7 @@ const Index = () => {
               description={collection.description}
               images={collection.images}
               index={index}
+              url={collection.url}
             />
           ))}
         </div>

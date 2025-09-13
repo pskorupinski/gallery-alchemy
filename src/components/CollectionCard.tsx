@@ -11,14 +11,18 @@ interface CollectionCardProps {
   description: string;
   images: CollectionImage[];
   index: number;
+  url: string;
 }
 
-const CollectionCard = ({ title, description, images, index }: CollectionCardProps) => {
+const CollectionCard = ({ title, description, images, index, url }: CollectionCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div 
-      className="group cursor-pointer animate-slide-up"
+    <a 
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group cursor-pointer animate-slide-up block"
       style={{ animationDelay: `${index * 0.1}s` }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -85,7 +89,7 @@ const CollectionCard = ({ title, description, images, index }: CollectionCardPro
              }} 
         />
       </div>
-    </div>
+    </a>
   );
 };
 
