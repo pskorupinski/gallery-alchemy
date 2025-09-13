@@ -15,12 +15,30 @@ import c1_3 from "@/assets/1-3.jpg";
 import c2_1 from "@/assets/2-1.jpg";
 import c2_2 from "@/assets/2-2.jpg";
 import c2_3 from "@/assets/2-3.jpg";
+import c3_1 from "@/assets/3-1.jpg";
+import c3_2 from "@/assets/3-2.jpg";
+import c3_3 from "@/assets/3-3.jpg";
+import c4_2 from "@/assets/4-2.jpg";
+import c4_4 from "@/assets/4-4.jpg";
+import c4_5 from "@/assets/4-5.jpg";
+import c5_1 from "@/assets/5-1.jpg";
+import c5_2 from "@/assets/5-2.jpg";
+import c5_3 from "@/assets/5-3.jpg";
+import c6_1 from "@/assets/6-1.jpg";
+import c6_2 from "@/assets/6-2.jpg";
+import c6_3 from "@/assets/6-3.jpg";
+import c7_1 from "@/assets/7-1.jpg";
+import c7_2 from "@/assets/7-2.jpg";
+import c7_3 from "@/assets/7-3.jpg";
+import c8_1 from "@/assets/8-1.jpg";
+import c8_2 from "@/assets/8-2.jpg";
+import c8_3 from "@/assets/8-3.jpg";
 
 const collections = [
   {
     title: "Bride & Groom's Morning",
     description: "",
-    url: "https://1drv.ms/a/c/e5c67f4bca25096f/EpoTzr_RMZVBhfb-NPgxrTABUUJEkUxicGeX8fVcQ-aV_w?e=w1VTXA",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/EpoTzr_RMZVBhfb-NPgxrTABCzy8w2uUXn1RDPQt-AFfTA?e=rZrKL0",
     images: [
       { src: c1_1, alt: "Bride & Groom's Morning #1" },
       { src: c1_2, alt: "Bride & Groom's Morning #2" },
@@ -30,7 +48,7 @@ const collections = [
   {
     title: "Wedding Ceremony",
     description: "",
-    url: "https://1drv.ms/a/c/e5c67f4bca25096f/EvpeOUO9X_1KiXnjGE134nQB6abwORneqctFOhu4hGbPTQ?e=49ZtXj",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/EvpeOUO9X_1KiXnjGE134nQB0GhjStoT2QNkbHgNKAGpGw?e=OxaRPJ",
     images: [
       { src: c2_1, alt: "Wedding Ceremony #1" },
       { src: c2_2, alt: "Wedding Ceremony #2" },
@@ -40,61 +58,61 @@ const collections = [
   {
     title: "Wedding Lunch & Events",
     description: "",
-    url: "https://example.com/wedding-events",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/EvQLg2kaG-pFlzQK3o-f1cABFmv1XO1DPLTx8VCGRaqnUg?e=UrRAej",
     images: [
-      { src: collection3Img1, alt: "Mountain landscape" },
-      { src: collection1Img2, alt: "Natural textures" },
-      { src: collection2Img1, alt: "Atmospheric mood" }
+      { src: c3_1, alt: "Wedding Lunch & Events #1" },
+      { src: c3_3, alt: "Wedding Lunch & Events #3" },
+      { src: c3_2, alt: "Wedding Lunch & Events #2" }
     ]
   },
   {
     title: "Party Time!",
     description: "",
-    url: "https://example.com/party-time",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/ErMIonSBYftAiPSp7YaYtsIBBm7z1oXMXbwe4VUhOkNHTQ?e=erqwuw",
     images: [
-      { src: collection1Img2, alt: "Architectural geometry" },
-      { src: collection1Img3, alt: "Abstract forms" },
-      { src: collection1Img1, alt: "Minimal portrait" }
+      { src: c4_4, alt: "Party Time #1" },
+      { src: c4_5, alt: "Party Time #2" },
+      { src: c4_2, alt: "Party Time #3" }
     ]
   },
   {
-    title: "Married Couple with Guests",
-    description: "Warm, cinematic moments captured during the most magical light of day.",
-    url: "https://example.com/couple-with-guests",
+    title: "Bride & Groom with Guests",
+    description: "",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/Eqatv82-OIhOkHn0lHJ8gucB-BmD_RSA1AsyWf2mXTjtRQ?e=b7TEx9",
     images: [
-      { src: collection1Img3, alt: "Golden textures" },
-      { src: collection3Img1, alt: "Sunset landscape" },
-      { src: collection1Img1, alt: "Portrait in golden light" }
+      { src: c5_1, alt: "Bride & Groom with Guests #1" },
+      { src: c5_2, alt: "Bride & Groom with Guests #2" },
+      { src: c5_3, alt: "Bride & Groom with Guests #3" }
     ]
   },
   {
     title: "Guest Portraits",
-    description: "Timeless black and white imagery that speaks to the soul through contrast and emotion.",
-    url: "https://example.com/guest-portraits",
+    description: "",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/Eo-j0-9QbNlNq113V3TCTSsBnRKHyJOSyA4R4NGe-09POQ?e=XbThzd",
     images: [
-      { src: collection1Img1, alt: "B&W portrait" },
-      { src: collection1Img2, alt: "Architectural shadows" },
-      { src: collection2Img1, alt: "Urban contrast" }
+      { src: c6_1, alt: "Guest Portraits #1" },
+      { src: c6_2, alt: "Guest Portraits #2" },
+      { src: c6_3, alt: "Guest Portraits #3" }
     ]
   },
     {
-    title: "Married Couple Photo Session",
-    description: "A sophisticated exploration of metropolitan beauty through fashion and architecture.",
-    url: "https://example.com/couple-garden",
+    title: "Bride & Groom Photo Sessions",
+    description: "",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/EnCcHDKqOcxGhrGRtgsxHYABTKADBT2DN4TuWggy_fcDyw?e=FoFc2Z",
     images: [
-      { src: collection1Img1, alt: "Fashion portrait" },
-      { src: collection1Img2, alt: "Architectural detail" },
-      { src: collection1Img3, alt: "Abstract texture" }
+      { src: c7_1, alt: "Bride & Groom Photo Sessions #1" },
+      { src: c7_2, alt: "Bride & Groom Photo Sessions #2" },
+      { src: c7_3, alt: "Bride & Groom Photo Sessions #3" }
     ]
   },
   {
     title: "Decoration",
-    description: "Capturing the electric energy of city lights and nocturnal urban landscapes.",
-    url: "https://example.com/decoration",
+    description: "",
+    url: "https://1drv.ms/a/c/e5c67f4bca25096f/EleYtkMqUdRBkDKGlmf3Hp8BiRuWxdCv28TyvV-53AGX5w?e=PaiklL",
     images: [
-      { src: collection2Img1, alt: "Urban nightscape" },
-      { src: collection1Img3, alt: "Neon reflections" },
-      { src: collection1Img1, alt: "Street portrait" }
+      { src: c8_1, alt: "Decoration #1" },
+      { src: c8_2, alt: "Decoration #2" },
+      { src: c8_3, alt: "Decoration #3" }
     ]
   },
 ];
