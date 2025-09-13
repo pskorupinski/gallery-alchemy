@@ -60,8 +60,8 @@ const collections = [
     description: "",
     url: "https://1drv.ms/a/c/e5c67f4bca25096f/EvQLg2kaG-pFlzQK3o-f1cABFmv1XO1DPLTx8VCGRaqnUg?e=UrRAej",
     images: [
-      { src: c3_1, alt: "Wedding Lunch & Events #1" },
       { src: c3_3, alt: "Wedding Lunch & Events #3" },
+      { src: c3_1, alt: "Wedding Lunch & Events #1" },
       { src: c3_2, alt: "Wedding Lunch & Events #2" }
     ]
   },
