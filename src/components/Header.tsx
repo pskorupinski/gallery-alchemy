@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-6">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-3">
-            <img src={GPlogo} alt="GP Logo" className="w-13 h-13 bg-background rounded-lg" />
+            <img src={GPlogo} alt="GP Logo" className="w-16 h-16 bg-background rounded-lg" />
             <div>
               <h1 className="text-2xl font-playfair font-semibold text-gradient">
                 Giulia & Paweł Wedding Photo Gallery
