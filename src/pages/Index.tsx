@@ -13,7 +13,7 @@ import c1_1 from "@/assets/1-1.jpg";
 import c1_2 from "@/assets/1-2.jpg";
 import c1_3 from "@/assets/1-3.jpg";
 import c2_1 from "@/assets/2-1.jpg";
-import c2_2 from "@/assets/2-2.jpg";
+import c2_4 from "@/assets/2-4.jpg";
 import c2_3 from "@/assets/2-3.jpg";
 import c3_1 from "@/assets/3-1.jpg";
 import c3_2 from "@/assets/3-2.jpg";
@@ -51,8 +51,8 @@ const collections = [
     url: "https://1drv.ms/a/c/e5c67f4bca25096f/EvpeOUO9X_1KiXnjGE134nQB0GhjStoT2QNkbHgNKAGpGw?e=OxaRPJ",
     images: [
       { src: c2_1, alt: "Wedding Ceremony #1" },
-      { src: c2_2, alt: "Wedding Ceremony #2" },
-      { src: c2_3, alt: "Wedding Ceremony #3" }
+      { src: c2_3, alt: "Wedding Ceremony #2" },
+      { src: c2_4, alt: "Wedding Ceremony #3" }
     ]
   },
   {
