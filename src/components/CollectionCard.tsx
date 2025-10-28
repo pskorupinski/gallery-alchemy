@@ -12,9 +12,10 @@ interface CollectionCardProps {
   images: CollectionImage[];
   index: number;
   url: string;
+  photo_no: number;
 }
 
-const CollectionCard = ({ title, description, images, index, url }: CollectionCardProps) => {
+const CollectionCard = ({ title, description, images, index, url, photo_no }: CollectionCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -76,7 +77,7 @@ const CollectionCard = ({ title, description, images, index, url }: CollectionCa
               {description}
             </p>
             <div className="flex items-center gap-2 text-primary font-medium group-hover:gap-4 transition-all duration-300">
-              <span className="font-inter">Explore Collection</span>
+              <span className="font-inter">Explore Collection ({photo_no})</span>
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </div>
           </div>

@@ -43,37 +43,41 @@ const collections = [
       { src: c1_1, alt: "Bride & Groom's Morning #1" },
       { src: c1_2, alt: "Bride & Groom's Morning #2" },
       { src: c1_3, alt: "Bride & Groom's Morning #3" }
-    ]
+    ],
+    photo_no: 54
   },
   {
-    title: "Wedding Ceremony",
+    title: "Ceremony",
     description: "",
     url: "https://1drv.ms/a/c/e5c67f4bca25096f/EvpeOUO9X_1KiXnjGE134nQB0GhjStoT2QNkbHgNKAGpGw?e=OxaRPJ",
     images: [
       { src: c2_1, alt: "Wedding Ceremony #1" },
       { src: c2_3, alt: "Wedding Ceremony #2" },
       { src: c2_4, alt: "Wedding Ceremony #3" }
-    ]
+    ],
+    photo_no: 260
   },
   {
-    title: "Wedding Lunch & Events",
+    title: "Lunch & Events",
     description: "",
     url: "https://1drv.ms/a/c/e5c67f4bca25096f/EvQLg2kaG-pFlzQK3o-f1cABFmv1XO1DPLTx8VCGRaqnUg?e=UrRAej",
     images: [
       { src: c3_3, alt: "Wedding Lunch & Events #3" },
       { src: c3_1, alt: "Wedding Lunch & Events #1" },
       { src: c3_2, alt: "Wedding Lunch & Events #2" }
-    ]
+    ],
+    photo_no: 153
   },
   {
-    title: "Party Time!",
+    title: "Let's Go Crazy!",
     description: "",
     url: "https://1drv.ms/a/c/e5c67f4bca25096f/ErMIonSBYftAiPSp7YaYtsIBBm7z1oXMXbwe4VUhOkNHTQ?e=erqwuw",
     images: [
       { src: c4_4, alt: "Party Time #1" },
       { src: c4_5, alt: "Party Time #2" },
       { src: c4_2, alt: "Party Time #3" }
-    ]
+    ],
+    photo_no: 174
   },
   {
     title: "Bride & Groom with Guests",
@@ -83,7 +87,8 @@ const collections = [
       { src: c5_1, alt: "Bride & Groom with Guests #1" },
       { src: c5_2, alt: "Bride & Groom with Guests #2" },
       { src: c5_3, alt: "Bride & Groom with Guests #3" }
-    ]
+    ],
+    photo_no: 50
   },
   {
     title: "Guest Portraits",
@@ -93,7 +98,8 @@ const collections = [
       { src: c6_1, alt: "Guest Portraits #1" },
       { src: c6_2, alt: "Guest Portraits #2" },
       { src: c6_3, alt: "Guest Portraits #3" }
-    ]
+    ],
+    photo_no: 148
   },
     {
     title: "Bride & Groom Photo Sessions",
@@ -103,7 +109,8 @@ const collections = [
       { src: c7_1, alt: "Bride & Groom Photo Sessions #1" },
       { src: c7_2, alt: "Bride & Groom Photo Sessions #2" },
       { src: c7_3, alt: "Bride & Groom Photo Sessions #3" }
-    ]
+    ],
+    photo_no: 54
   },
   {
     title: "Decoration",
@@ -113,7 +120,8 @@ const collections = [
       { src: c8_1, alt: "Decoration #1" },
       { src: c8_2, alt: "Decoration #2" },
       { src: c8_3, alt: "Decoration #3" }
-    ]
+    ],
+    photo_no: 20
   },
 ];
 
@@ -134,6 +142,7 @@ const Index = () => {
               images={collection.images}
               index={index}
               url={collection.url}
+              photo_no={collection.photo_no}
             />
           ))}
         </div>
